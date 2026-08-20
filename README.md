@@ -25,12 +25,10 @@ CGW 是 Cursor 的本机网关客户端：**默认走你已登录的 Cursor 账�
 | 系统 | 文件 |
 | --- | --- |
 | Windows x64 | [`cgw-desktop-win32-x64.exe`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-win32-x64.exe) |
-| macOS Apple Silicon（M 系列） | [`cgw-desktop-darwin-arm64.app.zip`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-darwin-arm64.app.zip) |
-| macOS Intel | [`cgw-desktop-darwin-x64.app.zip`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-darwin-x64.app.zip) |
 | Linux · Ubuntu / Debian | [`cgw-desktop-linux-x64.deb`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-linux-x64.deb) |
 | Linux · Fedora / RHEL / Rocky | [`cgw-desktop-linux-x64.rpm`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-linux-x64.rpm) |
 
-Linux 首次安装请用上面的 **`.deb` / `.rpm`**（会自动装 GTK3 和 WebKit2GTK 4.1）。装好后在应用内更新即可。
+macOS 桌面端暂缓提供。Linux 首次安装请用上面的 **`.deb` / `.rpm`**（会自动装 GTK3 和 WebKit2GTK 4.1）。装好后在应用内更新即可。
 
 也可以直接跑裸二进制 [`cgw-desktop-linux-x64`](https://github.com/FungZachary/cgw-releases/releases/latest/download/cgw-desktop-linux-x64)。**它不会自动装依赖**，缺 GTK3 / WebKit 时窗口起不来：
 
